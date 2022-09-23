@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+
+    <Style> 
+
+    
+
+    
+    h1{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(195, 162, 102);
+        margin: 0px;
+        
+        
+    }
+
+    #Theader{
+        
+        margin-left: 1100px;
+
+
+    }
+
+    #Top{
+        font-size: 40px;
+        margin-left: 100px;
+        font-size: 65px;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(168, 123, 9, 0.456);
+        width: 100%;
+       
+      
+    }
+
+    li{
+     
+        text-align: center;
+        float: left;
+        margin-left: 170px;
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        
+        
+        
+        
+    }
+
+    
+    
+
+    #middle{
+        
+        margin: 0;
+        padding: 0;
+        width: 1150px;
+        height: 901px;
+        overflow: hidden;
+        
+        background-color: rgb(213, 212, 212);
+        
+        
+        
+    }
+
+        #Bill{
+            background-color: rgb(137, 106, 12);
+            border-radius: 10px;
+            padding: 10px;
+            margin-left: 50px;
+            margin-right: 100px;
+            
+            
+        }
+
+    .Pay{
+        width:350px;
+        font-size: 15px;
+        margin-left: 50px;
+      
+        text-align: right;
+        padding-right: 30px;
+        margin-top: 0px;
+        
+        
+       
+    
+    }
+    
+    
+    .Pay >.right{
+        width:200px;
+        
+        padding-left:10px;
+        
+      
+        
+        
+    }
+
+    .entry{
+        margin-left:10px;
+       
+
+
+        
+    }
+
+   
+    #PayForm{
+        
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .sub{
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        margin-left: 600px;
+
+    }
+
+        
+    .Menu{
+       
+        margin-left: 70px;
+        font-size: 40px;
+        margin-bottom: 0px;
+        
+    }
+    #middle{
+        position: absolute;
+        
+    }
+    .menuid{
+        position: relative;
+        margin-left: 1150px;
+        background-color: rgb(219, 193, 131);
+        height: 901px;
+
+    }
+
+    .title{
+        
+        margin-left: 90px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 7px;
+    }
+
+    .mar{
+        margin-left: 95px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .mar2{
+        margin-left: 95px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-bottom: 4px solid black;
+    }
+
+    .mar3{
+        margin-left: 95px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-top: 4px solid black;
+    }
+
+    .container{
+        background-color: tan;
+        width: 100%;
+        display:flex;
+    }
+    #inner{
+        
+        width:400px;
+        height:300px;
+        color:white;
+        margin-left: 20px;
+
+    }
+
+    </Style>
+</head>
+<body>
+
+
+
+<h1> 
+
+    
+
+    <form id="Theader">
+
+        <label for="us"></label>
+            <input type="text" id="us" name="user" placeholder="username"> 
+        
+        <label for="ps"></label>
+            <input type="password" id="ps" name="pass" placeholder="password">
+
+    </form>
+
+    <p id="Top"> The Spice Bowl</p>
+</h1>
+
+<ul>
+    <li>Spices</a> </li>
+    <li>Recipes </li>
+    <li>My Kart</a> </li>
+    <li>My Account</a> </li>
+    <li>Contact Us</a> </li>
+
+    
+</ul>
+<div id="middle">
+
+    <h2> 
+        <p id="PayForm">Payment Form</p>
+
+        <p id="Bill">Billing Information (Required)</p>
+
+
+
+        <form class="Pay">
+            <lable for="fname" class="right">First Name</lable>
+            <input type="text" id="fname" name="first" placeholder="First Name" class="entry" required>
+
+            <br><br>
+
+            <label for="lname" class="right">Last Name</label>
+            <input type="text" id="lname" name="last" placeholder="Last Name"  class="entry"required>
+
+            <br><br>
+
+            <label for="Adr" class="right"> Street Address</label>
+            <input type="text" id="Adr" name="address" placeholder="Enter Address"  class="entry" required>
+
+            <br><br>
+
+            <label for="Adr2" class="right"> Street Address (2)</label>
+            <input type="text" id="Adr2" name="address" placeholder="Enter Address (optional)"   class="entry">
+
+            <br><br>
+
+            <label for="city" class="right">City</label>
+            <input type="text" id="city" name="city" placeholder="Enter City"      class="entry"  required>
+
+            <br><br>
+
+            <label for="state" class="right">state</label>
+            <input type="text" id="state" name="state" placeholder="Enter State"      class="entry" required>
+
+            <br><br>
+
+            <label for="zip" class="right"> Zip/Postal Code</label>
+            <input type="number" id="zip" name="zip" placeholder="Enter Zip/Postal"   class="entry"  required>
+
+            <br><br>
+
+            <label for="Country" class="right"> Country </label>
+            <input type="text" id="Country" name="country" placeholder="Enter Country"   class="entry" required>
+
+            <br><br>
+
+            <label for="PN" class="right"> Phone Number</label>
+            <input type="tel" id="PN" name="Phone" placeholder="Enter Phone Number"  class="entry"  required>
+
+
+        </form>
+    </h2>
+
+    <h2>    
+    <p id="Bill">Credit Card</p>
+
+        <form class="Pay">
+            <label for="Cred" class="right">Credit Card Number</label>
+            <input type="number" id="Cred" name="credit"  placeholder="Enter Credit Card Info" class="entry" required>
+
+            <br><br>
+
+            <label for="exp" class="right"> Expiratio Date</label>
+            <input type="month" id="exp" name="Expir" placeholder="Expiration Date" class="entry" required>
+
+            <br><br>
+
+            <label for="cvv" class="right"> CVV </label>
+            <input form="number" id="cvv" name="cvv" placeholder="Enter CVV" class="entry" required>
+            
+
+
+
+
+
+        </form>
+    <br><br><br>
+
+           <button type="submit" class="sub"  required><b>Submit<b></b></button>
+
+    </h2>
+
+</div>
+
+<div class="menuid">
+
+    <p class="Menu"><b>Menu Ideas</b></p>
+
+    <p class="title">Salt Roasted Pecans</p>
+    <p class="mar3">2 Cups of Pecans</p>
+    <p class="mar">2Tbs. butter melted</p>
+    <p class="mar2">1 1/4 tsp. fine sea salt</p>
+
+    <p class="title">Preparation</p>
+    <p class="mar2"> Preheat oven to 325. Toss 2 cups raw pecan halves and 3 Tbsp. Unsalted butter, melted, in a medium bowl to coat; sprinkle with 1 1/4 tsp. fine sea salt, then toss again. Spread out pecans on a rimmed baking sheet and bake, tossing halfway through, until fragrant and slightly darkened, 12-15 minutes. Let cool on baking sheet.</p>
+
+    <p class="title">Dried Beef Sticks</p>
+    <p class="mar3"> 5lbs. ground beef</p>
+    <p class="mar"> 5tbs. quick salt</p>
+    <p class="mar">3 tsp. mustard seed</p>
+    <p class="mar">2 tsp. garlic</p>
+    <p class="mar">2 tsp. cracked pepper</p>
+    <p class="mar">1 Tbs. Smoked Salt</p>
+    <p class="mar2">1 Tbs. liquid smoke</p>
+
+    <p class="title">Preparation</p>
+    <p class="mar2"> Mix beef and season. Place in a large covered container for three days. On third day, shape beef into sticks, and bake at 150 for 8 hours (turn half-way through).</p>
+
+
+
+</div>
+
+<div class="container">
+
+    <div id="inner">
+        <p>Home</p>
+        <p>Keyword Seach</p>
+        <br>
+        <p>Spices</p>
+        <p>Blends</p>
+        <p>Salts & Peppers</p>
+
+    </div>
+    <div id="inner">
+        <p>Popcorn Seasonings</p>
+        <p>Dip Mixes</p>
+        <p>Bulk Spices</p>
+        <p>Extracts</p>
+        <p>Flavorings</p>
+        <br>
+        <p>Spice Jars</p>
+        <p>Spice Jar Labels</p>
+
+    </div>
+    <div id="inner">
+        <p>Spice Sets</p>
+        <p>Mortar & Pestles</p>
+        <br>
+        <p>Cookbooks</p>
+        <p>Online Recipes</p>
+        <p>Forums</p>
+        <br>
+        <P>My Account</P>
+
+    </div>
+    <div id="inner">
+        <p>Checkout</p>
+        <p>Order History</p>
+        <p>Shipping Info</p>
+        <br>
+        <p>Tech Support</p>
+        <p>Hours</p>
+        <p>Contact Us</p>
+        
+    </div>
+
+
+
+
+
+</div>
+
+
+
+    
+</body>
+</html>
